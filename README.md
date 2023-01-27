@@ -26,10 +26,15 @@ End the program.
 
 ## PROGRAM:
 Developed by: Nivetha.A
+
 RegisterNumber: 22003573
+
 with open("sample1.txt", "r") as firstfile:
+
 with open("sample2.txt", "a") as secondfile:
+
 for line in firstfile:
+
 secondfile.write(line)
 
 ### OUTPUT:
